@@ -215,11 +215,11 @@ fig.suptitle('Churn Rate by Charges')
 plt.tight_layout()
 plt.show()
 ```
-### Churn rate by Monthly Charges
+### Churn rate by Monthly Charges Distribution
 ![Image](https://github.com/user-attachments/assets/2addf94e-2fd8-44f0-88db-25e0048eb677?raw=true)
 
 A churn rate of 37.2% was observed among customers with high monthly charges, 31.4% among very high monthly charges, 23.7% among medium monthly charges, 23% among low monthly charges and 8.7% among very low monthly charges. Churn rate can be reduced by revising the prices to ensure users get good value for their money.
-### Churn rate by Total Charges
+### Churn rate by Total Charges Distribution
 ![Image](https://github.com/user-attachments/assets/0307a004-eab1-4145-872b-9387c9f0fbc6?raw=true)
 
 A churn rate of 32.9% was observed among customers with very low total charges, 24.6% among low total charges, 16.7% among medium total charges, 14.7% among high total charges and 10.7% among very high charges. This trend can be as a result of user engagement and long term use of the service. Churn can be reduced by getting customers to use the service for long through campaigns, incentives and discounts on long term contracts.
