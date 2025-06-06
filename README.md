@@ -45,6 +45,8 @@ for i in df_churn.index:
   plt.text(i, df_churn['Churned'].iloc[i] + 20, f"{df_churn['Churn_rate'].iloc[i]:.1f}%")
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/2819b4bc-bd6a-4ca0-89ba-3b46afdb5b10?raw=true)
+
 A higher churn rate (41.7%) was observed in senior citizens, while about 23.6% of non-senior citizens churned. This shows that the potential of customers churning increase as they age. The company can lower churn rate by launching campaigns to target younger people, offering senior-friendly plans, or offering suitable incentives to retain older customers.
 ## Churn Rate by Living Situation
 Here is the code I used to find the churn rate by living situation
@@ -68,6 +70,8 @@ fig.suptitle('Churn Rate by Living Stuation')
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/b714e095-7577-4656-9002-ec52ffc9d12d?raw=true)
+
 A higher churn rate was observed among customers without partners and dependents (33.% and 31.3% respectively), while a lower churn rate was observed among those with partners and dependents (19.7% and 15.5% respectively).
 ## Churn Rate by Tenure
 Here is the code I used to find the churn rate by tenure
@@ -86,6 +90,8 @@ for i in df_churn.index:
   plt.text(i, df_churn['Churned'].iloc[i] + 20, f"{df_churn['Churn_rate'].iloc[i]:.1f}%")
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/76217933-2fb7-48e6-8043-545160df67fa?raw=true)
+
 New comers (customers who used the service between 1 and 18 months) had the highest churn rate (44.6%), Regulars (customers who used the service between 19 and 36 months) had a churn rate of 22.7%, Veterans (customers who used the service between 37 and 54 months) 18% and Loyalists (customers who used the service between 55 and 72 months) had the lowest  churn rate of 8%. This implies that the possibility of churning decreases as the time of usage of the service increases and the company struggles with retaining new customers. This could be as a result of familiarity with the service. The company can reduce churn by making the service easier to use, offer solutions to challenges new users might be experiencing promptly, and offer flexible plans and discounts to encourage continued usage. Also, new users should be surveyed to identify and address dissatisfaction.
 ## Churn Rate by Type of Service
 Here is the code I used to find the churn rate by type of service
@@ -111,10 +117,16 @@ plt.subplots_adjust(top=0.96)
 plt.show()
 ```
 ### Churn rate by Phone Service
+![Image](https://github.com/user-attachments/assets/138c1b9e-b808-4b04-b8ca-9a5162816ecd?raw=true)
+
 A higher churn rate (26.7%) was observed among those that used this service, while those that didn't use it had a churn rate of 24.9%. This implies that churn rate is not significantly influenced by the use of Phone Service.
 ### Churn rate by Multiple Lines
+![Image](https://github.com/user-attachments/assets/d8aad63d-b61f-4660-b19d-f4d15e022434?raw=true)
+
 A higher churn rate (28.6%) was observed among those that used this service, while those that didn't use it had a churn rate of 25%. This implies that churn rate is not significantly influenced by the use of multiple lines.
 ### Churn rate by Internet Service
+![Image](https://github.com/user-attachments/assets/54673668-e97d-4722-92db-edf4298a3c1a?raw=true)
+
 The highest churn rate (41.9%) was observed among those that used fibre optic, followed by  those that used DSL (19%), and the least (7.4%) was observed among those that didn't use any internet service. The significantly higher churn rate among the services could be as a result of poor and inconsistent internet connections and other challenges. The customers using these services should be surveyed, be given prompt customer services whenever they are in need and the quality of service should be improved.
 ### Churn rate by Online Security
 The highest churn rate (41.8%) was observed among those that did not use this service, followed by  those that used it  (14.6%), and the least (7.4%) was observed among those that didn't use any internet service. The significantly higher churn rate among those that didn't use the service could be as a result of security challenges. Churn rate can be reduced by improving the overall security of the service (even for those that do not subscribe to online security) or offering online security services at a discount to encourage users to adopt it.
