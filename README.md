@@ -27,6 +27,8 @@ for i in df_churn.index:
   plt.text(i, df_churn['Churned'].iloc[i] + 20, f"{df_churn['Churn_rate'].iloc[i]:.1f}%")
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/d32f14eb-eff3-4c09-83c6-57f7e797f096)
+
 A churn rate of 26.9% was observed among females, while a churn rate of  26.2% was observed among males. This implies that gender did not significantly influence churn.
 ## Churn Rate by Senior Citizen Status
 Here is the code I used to find the churn rate by Senior Citizen Status
