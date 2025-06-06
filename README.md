@@ -129,16 +129,28 @@ A higher churn rate (28.6%) was observed among those that used this service, whi
 
 The highest churn rate (41.9%) was observed among those that used fibre optic, followed by  those that used DSL (19%), and the least (7.4%) was observed among those that didn't use any internet service. The significantly higher churn rate among the services could be as a result of poor and inconsistent internet connections and other challenges. The customers using these services should be surveyed, be given prompt customer services whenever they are in need and the quality of service should be improved.
 ### Churn rate by Online Security
+![Image](https://github.com/user-attachments/assets/e3b8a614-4e06-42b9-970c-7b4e9450d344?raw=true)
+
 The highest churn rate (41.8%) was observed among those that did not use this service, followed by  those that used it  (14.6%), and the least (7.4%) was observed among those that didn't use any internet service. The significantly higher churn rate among those that didn't use the service could be as a result of security challenges. Churn rate can be reduced by improving the overall security of the service (even for those that do not subscribe to online security) or offering online security services at a discount to encourage users to adopt it.
 ### Churn rate by Online Backup
+![Image](https://github.com/user-attachments/assets/a266ebd9-411c-4ac6-84c8-1c02f8dd9334?raw=true)
+
 The highest churn rate (39.9%) was observed among those that did not use this service, followed by  those that used it  (21.5%), and the least (7.4%) was observed among those that didn't use any internet service. The Churn rate can be reduced by improving the quality of the service and organizing onboarding programs for users that might be interested in using it but not tech savvy enough.
 ### Churn rate by Device Protection
+![Image](https://github.com/user-attachments/assets/1d68ca4b-4a9e-4f8f-8c3d-c0cb25bfec65?raw=true)
+
 A higher churn rate (39.1%) was observed among those that did not use this service, while those that used it had a churn rate of 22.5%.
 ### Churn rate by  Tech Support
+![Image](https://github.com/user-attachments/assets/4ec7d38a-0734-427e-b7fc-6ca6ecd5d8cd?raw=true)
+
 A higher churn rate (41.6%) was observed among those that did not use this service, while those that used it had a churn rate of 15.2%. This could be as a result of unresolved challenges due to lack of support. Churn rate can be reduced by offering discounts on tech support to ensure everyone have access to it.
 ### Churn Rate by StreamingTV
+![Image](https://github.com/user-attachments/assets/46571e7c-4dd3-48f8-aa99-94e5ba64a165?raw=true)
+
 A higher churn rate (33.5%) was observed among those that did not use this service, while those that used it had a churn rate of 30.1%. This implies that this service does not significantly influence churn.
 ### Churn rate by Streaming Movies
+![Image](https://github.com/user-attachments/assets/4b7ef7b0-b96b-45a7-ae1d-0ad95d1572ca?raw=true)
+
 A higher churn rate (33.7%) was observed among those that did not use this service, while those that used it had a churn rate of 29.9%. This implies that this service does not significantly influence churn.
 ## Churn Rate by Contract
 Here is the code I used to find the churn rate by contract
@@ -154,6 +166,8 @@ for i in df_churn.index:
   plt.text(i, df_churn['Churned'].iloc[i] + 20, f"{df_churn['Churn_rate'].iloc[i]:.1f}%")
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/9b5f03b4-5262-4879-86a6-eb5d4097283c?raw=true)
+
 The churn rate was observed to be highest among customers on a month-to-month contract (11.3%), followed by one year subscribers (46%) and least among two year subscribers (2.8%). Highest churn rate among monthly subscribers could be as a result of customer loyalty and familiarity developed from long term use of the service. Churn can be reduced by offering initial incentives and discounts on long term contracts and organizing onboarding programs to create familiarity.
 ## Churn Rate by Payment Method
 Here is the code I used to find the churn rate by payment method
@@ -170,6 +184,8 @@ for i in df_churn.index:
   plt.text(i, df_churn['Churned'].iloc[i] + 20, f"{df_churn['Churn_rate'].iloc[i]:.1f}%")
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/cd46f5ef-51cf-410c-b182-1512b48cc5b9?raw=true)
+
 A churn rate of 45.3% was observed among customers that used electronic check, 19.1% among mailed check users, 16.7% among bank transfer users and 15.2% among credit card users. Electronic check users having the highest churn rate could be as a result of the complexity and friction associated with the use of the payment method. Churn can be reduced by streamlining the use of checks and encouraging the adoption of automated payment methods.
 ## Churn Rate by Charges
 Here is the code I used to find the churn rate by charges
@@ -200,6 +216,8 @@ plt.tight_layout()
 plt.show()
 ```
 ### Churn rate by Monthly Charges
+
+
 A churn rate of 37.2% was observed among customers with high monthly charges, 31.4% among very high monthly charges, 23.7% among medium monthly charges, 23% among low monthly charges and 8.7% among very low monthly charges. Churn rate can be reduced by revising the prices to ensure users get good value for their money.
 ### Churn rate by Total Charges
 A churn rate of 32.9% was observed among customers with very low total charges, 24.6% among low total charges, 16.7% among medium total charges, 14.7% among high total charges and 10.7% among very high charges. This trend can be as a result of user engagement and long term use of the service. Churn can be reduced by getting customers to use the service for long through campaigns, incentives and discounts on long term contracts.
